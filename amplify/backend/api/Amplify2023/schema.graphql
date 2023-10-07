@@ -1,0 +1,11 @@
+type Hike @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  difficulty: String
+  location: String
+  lat: Float
+  long: Float
+  length: Float
+  time: String
+  coverimage: String
+} 
