@@ -5,7 +5,7 @@ import { listHikes } from "./graphql/queries";
 import { useState, useEffect } from "react";
 import { API } from "aws-amplify";
 import { Marker, Popup } from "react-map-gl";
-
+import { withAuthenticator } from "@aws-amplify/ui-react";
 function MarkerWithPopup({ hike, latitude, longitude }) {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -76,4 +76,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
