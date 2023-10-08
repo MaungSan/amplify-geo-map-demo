@@ -52,5 +52,23 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "geo": {
+    "map1c07af6a": {
+      "accessType": "AuthorizedAndGuestUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "Amplify2023"
+        }
+      ],
+      "isDefault": true,
+      "mapStyle": "VectorEsriStreets",
+      "providerPlugin": "awscloudformation",
+      "service": "Map"
+    }
   }
 }

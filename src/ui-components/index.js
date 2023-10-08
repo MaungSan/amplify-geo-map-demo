@@ -16,6 +16,5 @@ export { default as NavBarHeader } from "./NavBarHeader";
 export { default as NavBarHeader2 } from "./NavBarHeader2";
 export { default as NavBarSide } from "./NavBarSide";
 export { default as ProductDetail } from "./ProductDetail";
-export { default as ProfileCard } from "./ProfileCard";
 export { default as StandardCard } from "./StandardCard";
 export { default as studioTheme } from "./studioTheme";

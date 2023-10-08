@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "Amplify2023": {}
+      },
+      "api": {
+        "Amplify2023": {}
+      },
+      "geo": {
+        "map1c07af6a": {}
       }
     }
   }
