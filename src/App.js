@@ -7,7 +7,7 @@ import { Login } from "./components/Login";
 import { ProtectedSecond } from "./components/ProtectSecond";
 import { Home } from "./components/Home";
 import { Layout } from "./components/Layout";
-
+import Map from "./components/Map";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -19,10 +19,10 @@ function MyRoutes() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route
-            path="/protected"
+            path="/Map"
             element={
               <RequireAuth>
-                <Protected />
+                <Map />
               </RequireAuth>
             }
           />

@@ -1,7 +1,7 @@
 import { MapView } from "@aws-amplify/ui-react-geo";
-import "./App.css";
+import "../App.css";
 import { Hikes, StandardCard } from "../ui-components";
-import { listHikes } from "./graphql/queries";
+import { listHikes } from "../graphql/queries";
 import { useState, useEffect } from "react";
 import { API } from "aws-amplify";
 import { Marker, Popup } from "react-map-gl";
